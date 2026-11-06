@@ -3,59 +3,100 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Kuvetra — Legal</title>
+<title>Kuvetra - Boda boda rides you can trust</title>
+<meta name="description" content="Kuvetra connects passengers with boda boda riders who are verified by the chairman of their own stage. Built in Kenya, starting in Machakos." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23FAFAF8'/%3E%3Cpath d='M22 22h14v22l22-22h19L52 50l27 28H59L36 54v24H22z' fill='%230A2146'/%3E%3C/svg%3E" />
 <style>
-  :root { --green:#2EAE55; --green-dark:#1E7E3C; --ink:#14241A; --mist:#EFF7F1; }
+  :root { --navy:#102744; --navy2:#193653; --ink:#172B45; --muted:#5F6873; --mist:#F0F1F2; --bg:#FAFAF8; --powder:#B9D0E5; }
   * { box-sizing:border-box; }
   body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-         color:var(--ink); background:var(--mist); line-height:1.6; }
-  .wrap { max-width:720px; margin:0 auto; padding:32px 20px 64px; }
-  header { display:flex; align-items:center; gap:12px; margin-bottom:8px; }
-  .mark { width:34px; height:34px; }
-  h1 { font-size:26px; margin:24px 0 4px; }
-  .tagline { color:rgba(20,36,26,.6); margin:0 0 28px; }
-  .card { display:block; background:#fff; border-radius:16px; padding:20px 22px; margin-bottom:14px;
-          text-decoration:none; color:inherit; border:1px solid rgba(20,36,26,.08);
-          transition:transform .08s ease, box-shadow .08s ease; }
-  .card:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(20,36,26,.08); }
-  .card h2 { margin:0 0 4px; font-size:17px; color:var(--green-dark); }
-  .card p { margin:0; font-size:14px; color:rgba(20,36,26,.65); }
-  footer { margin-top:32px; font-size:12px; color:rgba(20,36,26,.45); }
+         color:var(--ink); background:var(--bg); line-height:1.6; }
+  a { color:var(--navy2); }
+  .hero { background:linear-gradient(135deg,#0C1F38 0%,#193653 100%); color:#fff; }
+  .wrap { max-width:880px; margin:0 auto; padding:0 22px; }
+  .bar { display:flex; align-items:center; gap:14px; padding:22px 0; }
+  .mark { width:56px; height:46px; }
+  .word { font-size:22px; font-weight:800; letter-spacing:4px; }
+  .heroText { padding:36px 0 64px; }
+  h1 { font-size:38px; line-height:1.15; margin:0 0 14px; }
+  .lead { font-size:18px; color:var(--powder); margin:0 0 6px; max-width:620px; }
+  .status { display:inline-block; margin-top:22px; padding:8px 14px; border-radius:999px;
+            background:rgba(255,255,255,.12); font-size:14px; }
+  main { padding:44px 0 20px; }
+  h2 { font-size:22px; margin:0 0 6px; color:var(--navy); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:16px; margin:20px 0 40px; }
+  .card { background:#fff; border:1px solid #DCDFE3; border-radius:16px; padding:20px 22px; }
+  .card h3 { margin:0 0 8px; font-size:17px; color:var(--navy); }
+  .card ul { margin:0; padding-left:18px; color:var(--muted); font-size:15px; }
+  .card li { margin-bottom:6px; }
+  .safety { background:var(--mist); border-radius:16px; padding:22px 24px; margin-bottom:40px; }
+  .safety p { margin:6px 0 0; color:var(--muted); }
+  footer { border-top:1px solid #DCDFE3; padding:26px 0 48px; font-size:14px; color:var(--muted); }
+  footer nav a { margin-right:18px; }
+  @media (max-width:520px) { h1 { font-size:30px; } }
 </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <svg class="mark" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path d="M18 20 L50 80 L82 20 L66 20 L50 52 L34 20 Z" fill="#2EAE55"/>
-      </svg>
-      <strong style="font-size:20px; letter-spacing:2px;">KUVETRA</strong>
-    </header>
-    <h1>Legal &amp; Privacy</h1>
-    <p class="tagline">Community-based boda-boda ride-hailing for Kenya. Wherever You Go, We Go With You.</p>
-
-    <a class="card" href="privacy.html">
-      <h2>Privacy Policy</h2>
-      <p>What personal information we collect, why, and the choices you have.</p>
-    </a>
-    <a class="card" href="terms.html">
-      <h2>Terms of Service</h2>
-      <p>The rules for using Kuvetra as a passenger, rider, or chairman.</p>
-    </a>
-
-    <a class="card" href="rider-agreement.html">
-      <h2>Rider Agreement</h2>
-      <p>The agreement between Kuvetra and riders: documents and insurance.</p>
-    </a>
-    <a class="card" href="delete-account.html">
-      <h2>Delete your account &amp; data</h2>
-      <p>How to remove your Kuvetra account and the data tied to it.</p>
-    </a>
-
-    <footer>
-      &copy; 2026 Kuvetra. Plain-language documents for the current build; final wording is
-      reviewed by a lawyer before public launch.
-    </footer>
+  <div class="hero">
+    <div class="wrap">
+      <div class="bar">
+        <svg class="mark" viewBox="0 0 125.6 101.65" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kuvetra"><g transform="translate(-21.74 -18)"><defs><linearGradient id="roadw" gradientUnits="userSpaceOnUse" x1="-25.81" y1="36.86" x2="40.15" y2="-57.34"><stop offset="0" stop-color="#2E86DE"/><stop offset="0.07" stop-color="#2F8AE0"/><stop offset="0.15" stop-color="#308FE3"/><stop offset="0.24" stop-color="#3194E6"/><stop offset="0.33" stop-color="#3399E9"/><stop offset="0.41" stop-color="#349EEC"/><stop offset="0.5" stop-color="#35A3EE"/><stop offset="0.59" stop-color="#36A8F1"/><stop offset="0.67" stop-color="#37ADF4"/><stop offset="0.76" stop-color="#39B2F7"/><stop offset="0.85" stop-color="#3AB7FA"/><stop offset="0.93" stop-color="#3BBCFD"/><stop offset="1" stop-color="#3CC0FF"/></linearGradient></defs><path fill="#FFFFFF" d="M22.74 18L60.97 18A1 1 0 0 1 61.97 19L61.97 44.95L21.74 83.35L21.74 19A1 1 0 0 1 22.74 18Z"/><path fill="#FFFFFF" d="M104.67 72.34L146.46 117.97A1 1 0 0 1 145.72 119.65L108.6 119.65A1 1 0 0 1 107.86 119.32L84.55 93.6A1 1 0 0 1 84.58 92.23L103.94 72.33A0.5 0.5 0 0 1 104.67 72.34Z"/><path fill="url(#roadw)" d="M97.72 18L107.84 18L21.74 101.08L21.74 91.19Z"/><path fill="url(#roadw)" fill-rule="evenodd" d="M115.96 18L146.73 18L51.97 119.27A1.2 1.2 0 0 1 51.09 119.65L24.74 119.65A3 3 0 0 1 21.74 116.65L21.74 111.1ZM84.23 64.7L77.23 72.5A0.9 0.9 0 0 0 78.57 73.7L85.57 65.9A0.9 0.9 0 0 0 84.23 64.7ZM67.45 82.05L59.41 90.13A1.15 1.15 0 0 0 61.05 91.75L69.09 83.67A1.15 1.15 0 0 0 67.45 82.05ZM49.75 99.59L40.11 109.89A1.4 1.4 0 0 0 42.15 111.81L51.79 101.51A1.4 1.4 0 0 0 49.75 99.59Z"/></g></svg>
+        <span class="word">KUVETRA</span>
+      </div>
+      <div class="heroText">
+        <h1>Boda boda rides you can trust.</h1>
+        <p class="lead">Kuvetra connects passengers with boda boda riders who are verified by the chairman of their own stage. Built in Kenya, starting in Machakos.</p>
+        <span class="status">Now in closed testing. The Google Play link will appear here at launch.</span>
+      </div>
+    </div>
   </div>
+
+  <main class="wrap">
+    <h2>How it works</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Passengers</h3>
+        <ul>
+          <li>Request a ride from where you are to where you are going.</li>
+          <li>The nearest available verified rider gets your request first.</li>
+          <li>See your rider's name, photo and plate, and follow the trip on the map.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Riders</h3>
+        <ul>
+          <li>Join your stage and get verified by your stage chairman.</li>
+          <li>Go online and receive ride requests near you.</li>
+          <li>Navigate to the pickup and the destination.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Stage chairmen</h3>
+        <ul>
+          <li>Register your stage and check each rider's documents.</li>
+          <li>Approve the riders you know.</li>
+          <li>See your riders, their ratings and reports.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="safety">
+      <h2>Safety first</h2>
+      <p>Every rider is checked by their own stage chairman before taking rides. Passengers can rate riders, report a problem, and reach 999 or 112 from the trip screen. Emergency contacts you save stay on your phone only.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <nav>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="rider-agreement.html">Rider Agreement</a>
+        <a href="delete-account.html">Delete your account</a>
+      </nav>
+      <p>Questions? Write to <a href="mailto:support@kuvetra.co.ke">support@kuvetra.co.ke</a>.</p>
+      <p>&copy; 2026 Kuvetra. Plain-language legal documents for the current build; final wording is reviewed by a lawyer before public launch.</p>
+    </div>
+  </footer>
 </body>
 </html>
