@@ -17,11 +17,12 @@
   p { color:rgba(23,43,69,.78); }
   .footer { margin-top:32px; font-size:12px; color:rgba(23,43,69,.45); border-top:1px solid rgba(23,43,69,.1); padding-top:16px; }
   a { color:var(--green-dark); }
+  .show-email { font:inherit; color:var(--green-dark); background:none; border:0; padding:0; text-decoration:underline; cursor:pointer; }
 </style>
 </head>
 <body>
   <div class="wrap">
-    <a class="back" href="index.html">&larr; Kuvetra</a>
+    <a class="back" href="./">&larr; Kuvetra</a>
     <h1>Terms of Service</h1>
     <p class="intro">Please read these terms. By creating an account or using Kuvetra you agree to them.
       Last updated October 2026.</p>
@@ -41,7 +42,7 @@
       insurance that covers carrying passengers, obey all traffic laws, and ride safely, including
       wearing a helmet and carrying one for the passenger. An NTSA PSV badge is required, with a
       20-day grace period from approval to obtain it. Submitting false documents can lead to
-      removal. Riders are also bound by the <a href="rider-agreement.html">Rider Agreement</a>.</p>
+      removal. Riders are also bound by the <a href="rider-agreement">Rider Agreement</a>.</p>
 
     <h2>Safety and conduct</h2>
     <p>Treat other users with respect. Do not use Kuvetra for anything illegal or unsafe. Passengers
@@ -63,7 +64,7 @@
 
     <h2>Suspending or ending accounts</h2>
     <p>We may suspend or close accounts that break these terms. You can deactivate or delete your
-      account at any time from Profile. See <a href="delete-account.html">Delete your account</a>.</p>
+      account at any time from Profile. See <a href="delete-account">Delete your account</a>.</p>
 
     <h2>Changes</h2>
     <p>We may update these terms and will note the date above. Continued use means you accept the
@@ -73,10 +74,11 @@
     <p>These terms are governed by the laws of Kenya, and disputes are subject to the Kenyan courts.</p>
 
     <h2>Contact</h2>
-    <p>Questions? Contact <a href="mailto:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#107;&#117;&#118;&#101;&#116;&#114;&#97;&#46;&#99;&#111;&#46;&#107;&#101;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#107;&#117;&#118;&#101;&#116;&#114;&#97;&#46;&#99;&#111;&#46;&#107;&#101;</a>.</p>
+    <p>Questions? Contact <span class="email-reveal"><button type="button" class="show-email">Show support email</button><noscript> (turn on JavaScript in your browser to see the address)</noscript></span>.</p>
 
     <p class="footer">This is a plain-language version for the current build; the final legal wording
       is reviewed by a lawyer before public launch.</p>
   </div>
+<script src="email.js"></script>
 </body>
 </html>

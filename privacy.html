@@ -17,11 +17,12 @@
   p { color:rgba(23,43,69,.78); }
   .footer { margin-top:32px; font-size:12px; color:rgba(23,43,69,.45); border-top:1px solid rgba(23,43,69,.1); padding-top:16px; }
   a { color:var(--green-dark); }
+  .show-email { font:inherit; color:var(--green-dark); background:none; border:0; padding:0; text-decoration:underline; cursor:pointer; }
 </style>
 </head>
 <body>
   <div class="wrap">
-    <a class="back" href="index.html">&larr; Kuvetra</a>
+    <a class="back" href="./">&larr; Kuvetra</a>
     <h1>Privacy Policy</h1>
     <p class="intro">Kuvetra helps passengers find verified boda-boda (motorbike) riders organised in
       local stages. This policy explains what personal information we collect, why, and the choices
@@ -29,7 +30,7 @@
 
     <h2>Who we are</h2>
     <p>Kuvetra operates this app. For any privacy question or request, contact us at
-      <a href="mailto:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#107;&#117;&#118;&#101;&#116;&#114;&#97;&#46;&#99;&#111;&#46;&#107;&#101;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#107;&#117;&#118;&#101;&#116;&#114;&#97;&#46;&#99;&#111;&#46;&#107;&#101;</a>.</p>
+      <span class="email-reveal"><button type="button" class="show-email">Show support email</button><noscript> (turn on JavaScript in your browser to see the address)</noscript></span>.</p>
 
     <h2>Information we collect</h2>
     <p><strong>Account details:</strong> your name, phone number, email, and profile photo.
@@ -69,7 +70,7 @@
 
     <h2>How long we keep it</h2>
     <p>While your account is active. If you deactivate, you can reactivate within 30 days by signing
-      in; after that the account is closed. See <a href="delete-account.html">Delete your account</a>.</p>
+      in; after that the account is closed. See <a href="delete-account">Delete your account</a>.</p>
 
     <h2>Your rights</h2>
     <p>Under Kenya's Data Protection Act, 2019 you can ask to access, correct, or delete your
@@ -89,5 +90,6 @@
     <p class="footer">This is a plain-language policy for the current build. The final wording and
       ODPC registration are confirmed with a lawyer before public launch.</p>
   </div>
+<script src="email.js"></script>
 </body>
 </html>
